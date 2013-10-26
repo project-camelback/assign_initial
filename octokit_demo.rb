@@ -5,7 +5,7 @@ GITHUB_ROOT = "https://github.com/"
 
 Octokit.configure do |c|
   c.login = 'andersr'
-  c.password = 'sushi9000'
+  c.password = GITHUB_PWD
 end
 
 user = Octokit.user 'andersr'
