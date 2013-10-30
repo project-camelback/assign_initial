@@ -1,5 +1,4 @@
-require 'pry'
-require 'octokit'
+require_relative '../config/environment'
 
 GITHUB_ROOT = "https://github.com/"
 
